@@ -1,4 +1,5 @@
 # CasoAutoApiJAMP - Automatización de Pruebas API con Serenity BDD
+# Autor: Jolaus Andy Meza Perez
 
 Proyecto de automatización de pruebas sobre servicios REST desarrollado con **Java 17**, **Maven**, **Cucumber** y **Serenity BDD**, implementando el patrón **Screenplay** sobre la API pública [Fake Store API](https://fakestoreapi.com/).
 
