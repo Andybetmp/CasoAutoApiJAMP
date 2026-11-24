@@ -1,11 +1,11 @@
-# CasoAutoApiJAMP
 # CasoAutoApiJAMP - Automatización de Pruebas API con Serenity BDD
 
 Proyecto de automatización de pruebas sobre servicios REST desarrollado con **Java 17**, **Maven**, **Cucumber** y **Serenity BDD**, implementando el patrón **Screenplay** sobre la API pública [Fake Store API](https://fakestoreapi.com/).
 
 ## Entregables y Evidencias
 - **Video demostrativo (ejecución, código y reporte Serenity):** [Ver video en Google Drive](https://drive.google.com/file/d/1_e27BOCp1ITjbJi_Xkj3gwfAJYcAxGbK/view?usp=sharing)
-- **Reporte HTML de Serenity BDD:** Se genera localmente tras la ejecución en `target/site/serenity/index.html`
+- **Reporte de ejecución en PDF:** Descargado desde el reporte HTML de Serenity y cargado directamente en la carpeta [`docs/`](./docs/) del repositorio.
+- **Reporte HTML dinámico:** Se genera localmente tras cada ejecución en `target/site/serenity/index.html`.
 
 ## Requisitos previos
 - **Java JDK 17**
@@ -15,6 +15,7 @@ Proyecto de automatización de pruebas sobre servicios REST desarrollado con **J
 ## Estructura del proyecto
 ```text
 CasoAutoApiJAMP/
+├── docs/                                  # Reporte de resultados de Serenity exportado en PDF
 ├── pom.xml
 ├── README.md
 ├── .gitignore
